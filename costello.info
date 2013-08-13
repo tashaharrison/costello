@@ -1,0 +1,50 @@
+name = costello
+description = Install profile for costello.co.uk for use with SpireLight base.
+core = 7.x
+theme = costello
+
+; Install necessary core modules.
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = toolbar
+
+; Install Commerce dependencies.
+dependencies[] = addressfield
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = views
+dependencies[] = views_ui
+
+; Install contribs.
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = inline_entity_form
+dependencies[] = entityreference
+dependencies[] = commerce_addressbook
+dependencies[] = commerce_checkout_progress
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = metatag
+dependencies[] = nocurrent_pass
+dependencies[] = omega_tools
+dependencies[] = webform
+
+; Install Features
+dependencies[] = boxes
+dependencies[] = features
+dependencies[] = strongarm
