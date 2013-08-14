@@ -20,23 +20,11 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = toolbar
 
-; Install Commerce dependencies.
-dependencies[] = addressfield
-dependencies[] = ctools
-dependencies[] = entity
-dependencies[] = entity_token
-dependencies[] = rules
-dependencies[] = rules_admin
-dependencies[] = views
-dependencies[] = views_ui
-
 ; Install contribs.
 dependencies[] = libraries
 dependencies[] = pathauto
 dependencies[] = inline_entity_form
 dependencies[] = entityreference
-dependencies[] = commerce_addressbook
-dependencies[] = commerce_checkout_progress
 dependencies[] = redirect
 dependencies[] = globalredirect
 dependencies[] = metatag
