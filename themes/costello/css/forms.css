@@ -1,0 +1,242 @@
+/* UI Consistency */
+::-moz-focus-inner {
+
+}
+
+input[type="search"]::-webkit-search-decoration {
+
+}
+
+input, button, select, textarea {
+
+}
+.page-checkout-user div.tabs {
+
+}
+.page-checkout-user .tabs li a {
+
+}
+button, input[type="reset"], 
+input[type="submit"], 
+input[type="button"],
+.toboggan-unified #login-links a, 
+.button, 
+.page-checkout-user .tabs li a, 
+.create-account .login-register,
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.checkout,
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button {
+
+}
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.continue{
+
+}
+#messages div.messages.commerce-add-to-cart-confirmation .button-wrapper .button a {
+
+}
+#messages div.messages.commerce-add-to-cart-confirmation .button-wrapper .button a:hover,
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.continue .commerce-add-to-cart-confirmation-close:hover {
+
+}
+button:focus, button:active, 
+input:focus, input:active, 
+textarea:focus, 
+textarea:active,
+input.text:focus, 
+input.email:focus, 
+input.password:focus, 
+textarea.uniform:focus {
+
+}
+.form-actions input:hover,
+.toboggan-unified #login-links a:hover, 
+.toboggan-unified #login-links a.lt-active:hover, 
+a.button:hover,.page-checkout-user .tabs li a:hover, 
+.create-account .login-register:hover,
+button:hover, 
+input:hover[type="reset"], 
+input:hover[type="submit"], 
+input:hover[type="button"],
+.toboggan-unified #login-links a.lt-hover, 
+.button:hover, 
+.page-checkout-user .tabs li a.hover, 
+.page-checkout-user .tabs li a:hover  {
+
+}
+button:active, 
+input:active[type="reset"], 
+input:active[type="submit"], 
+input:active[type="button"],
+.toboggan-unified #login-links a.lt-active, 
+.button:active, 
+.page-checkout-user 
+.tabs li a.active, 
+.page-checkout-user 
+.tabs li a:active {
+
+}
+button {
+
+}
+.checkout-buttons input,
+.commerce-line-item-actions input,
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button {
+
+}
+.commerce-line-item-views-form .commerce-line-item-actions {
+
+}
+.checkout-buttons .checkout-cancel, 
+.checkout-buttons .checkout-back,
+.checkout-buttons .checkout-cancel:hover,
+.checkout-buttons .checkout-back:hover,
+.checkout-buttons .checkout-cancel:active,
+.checkout-buttons .checkout-back:active,
+.checkout-buttons .checkout-cancel:focus,
+.checkout-buttons .checkout-back:focus {
+
+}
+#commerce-checkout-form-checkout .form-type-password {
+
+}
+#commerce-checkout-form-checkout #edit-account-login-login-now {
+
+}
+.addressfield-container-inline > div.form-item {
+
+}
+.commerce-customer-profile-copy {
+
+}
+
+/**
+* Checkout progress
+*/
+ol.inline.commerce-checkout-progress {
+
+}
+ol.inline.commerce-checkout-progress li {
+
+}
+ol.inline.commerce-checkout-progress li:after {
+       
+}
+ol.inline.commerce-checkout-progress li.last:after {
+
+      /* LTR */ }
+ol.inline.commerce-checkout-progress li.active, ol.inline.commerce-checkout-progress li.last.active {
+
+}
+ol.inline.commerce-checkout-progress li.active:after, ol.inline.commerce-checkout-progress li.last.active:after {
+
+        /* LTR */ }
+ol.inline.commerce-checkout-progress li.previous, ol.inline.commerce-checkout-progress li.visited {
+}
+      ol.inline.commerce-checkout-progress li.previous a, ol.inline.commerce-checkout-progress li.visited a {
+}
+ol.inline.commerce-checkout-progress li.previous a:hover, ol.inline.commerce-checkout-progress li.visited a:hover {
+
+ }
+ol.inline.commerce-checkout-progress li a {
+
+ }
+
+
+textarea, select, 
+input[type="date"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="email"], 
+input[type="month"], 
+input[type="number"], 
+input[type="password"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="text"], 
+input[type="time"], 
+input[type="url"], 
+input[type="week"] {
+
+}
+.form-item-search-block-form input {
+
+}
+/* Separate rule for Firefox. Cannot stack with WebKit's. */
+input.placeholder_text,
+textarea.placeholder_text,
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+
+}
+::-webkit-input-placeholder {
+
+}
+
+#search-block-form .form-actions input:hover {
+
+}
+#search-block-form .form-actions input:hover {
+
+}
+input[type="file"]:focus,
+input[type="file"]:active,
+input[type="radio"]:focus,
+input[type="radio"]:active,
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active {
+;
+}
+
+select[disabled],
+textarea[disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="email"][disabled],
+input[type="month"][disabled],
+input[type="number"][disabled],
+input[type="password"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="text"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+input[type="week"][disabled] {
+
+}
+
+button[disabled],
+input[disabled],
+select[disabled],
+select[disabled] option,
+select[disabled] optgroup,
+textarea[disabled] {
+
+}
+select:focus, select:active {
+   
+}
+option[selected="selected"] {
+}
+option {
+
+}
+option::selection,
+option::-moz-selection,
+option:hover {
+
+}
+
+textarea,
+select[size],
+select[multiple] {
+  height: auto;
+}
+input[type="hidden"], input[type="image"], input[type="file"] {
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type="hidden"], input[type="image"], input[type="file"] {
+
+}
+}
+

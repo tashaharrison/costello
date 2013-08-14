@@ -1,0 +1,334 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/************************************************************
+                        HTML elements
+*************************************************************/
+html {
+
+}
+body {
+
+}
+
+h1 {
+
+}
+h2 {
+
+}
+a:link, a:visited {
+
+}
+a:hover {
+
+}
+a:active {
+
+}
+p {
+}
+.section-content .block-main ul {
+}
+.section-content .block-main ul li {
+}
+td {
+
+}
+label {
+
+}
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+
+}
+tr, tr.even {
+
+}
+tr.odd {
+
+}
+tr td, tr th {
+
+}
+
+
+/************************************************************
+                    Global Drupal elements
+*************************************************************/
+
+
+/**
+ * @file
+ * Styles for system messages.
+ */
+
+#messages {
+
+}
+#messages a {
+
+}
+#message a:hover {
+
+}
+div.messages {
+
+}
+div.status {
+
+}
+div.status,
+.ok {
+ 
+}
+div.status,
+table tr.ok {
+ 
+}
+div.warning {
+
+}
+div.warning,
+.warning {
+
+}
+div.warning,
+table tr.warning {
+
+}
+div.error {
+
+}
+div.error,
+.error {
+
+}
+div.error,
+table tr.error {
+
+}
+div.error p.error {
+
+}
+div.messages ul {
+
+}
+div.messages ul li {
+
+}
+.feed-icon {
+
+}
+.feed-icon a {
+
+}
+.feed-icon a img {
+
+}
+.feed-icon a:hover img {
+
+}
+/************************************************************
+                            Tabs
+*************************************************************/
+div.tabs {
+ 
+}
+ul.tabs {
+}
+ul.tabs li {
+}
+ul.tabs li a {
+}
+ul.tabs li a:hover {
+}
+ul.tabs li.active a {
+
+}
+/*************************************************************
+        
+                        Branding Zone
+                        
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-branding-wrapper .zone-wrapper .zone-branding-wrapper .clearfix
+> #zone-branding .zone .zone-branding .clearfix .container-12
+> #region-branding .grid-12 region region-branding
+> .region-inner .region-branding-inner          
+
+*************************************************************/
+#zone-branding {
+}
+
+.logo-img {
+
+}
+.lt-ie9 .logo-img {
+
+}
+.region-branding-inner  #block-system-user-menu {
+}
+.region-branding-inner  #block-system-user-menu ul.menu {
+}
+.region-branding-inner  #block-system-user-menu ul.menu li {
+}
+.region-branding-inner  #block-system-user-menu ul.menu li.last {
+}
+.region-branding-inner  #block-system-user-menu ul.menu li a {
+}
+.region-branding-inner  #block-system-user-menu ul.menu li.first a {
+}
+.region-branding-inner #block-system-user-menu h2 {
+}
+/* Basket */
+.view-clone-of-shopping-cart-block {
+;
+}
+.view-clone-of-shopping-cart-block .view-content .views-row {
+
+}
+.view-clone-of-shopping-cart-block .view-header,
+.view-clone-of-shopping-cart-block .view-content,
+.view-clone-of-shopping-cart-block .view-footer {
+
+}
+.view-clone-of-shopping-cart-block .view-footer .line-item-summary .links {
+
+}
+.view-clone-of-shopping-cart-block .view-footer .line-item-summary {
+
+}
+.view-clone-of-shopping-cart-block .view-header,
+.view-clone-of-shopping-cart-block .view-content {
+
+}
+/* Add to basket pop-up */
+div.messages.commerce-add-to-cart-confirmation {
+
+}
+div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
+
+}
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
+
+}
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content {
+
+}
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .commerce-product-sku .commerce-product-sku-label, 
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .field .views-label, 
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .field .field-label,
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .field .field-items .field-item,
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .field .field-content {
+
+}
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .views-field-field-product-image {
+
+}
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .views-field-commerce-total .field-content {
+
+}
+div.messages.commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .views-field-commerce-total {
+
+}
+div.messages.commerce-add-to-cart-confirmation .message-inner .commerce-add-to-cart-confirmation-close {
+
+}
+
+
+/************************************************************
+        
+                        Menu Zone
+                        
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-menu-wrapper .zone-wrapper .zone-menu-wrapper .clearfix
+> #zone-menu .zone .zone-menu .clearfix .container-12
+> #region-menu .grid-12 region region-menu
+> .region-inner .region-menu-inner                      
+
+*************************************************************/
+#zone-menu-wrapper {
+    
+}
+
+/************************************************************
+        
+                        Content Zone
+                        
+IDs & Classes: 
+> #section-content .section .section-content
+> #zone-content-wrapper .zone-wrapper .zone-content-wrapper .clearfix
+> #zone-content .zone .zone-content .clearfix .container-12
+> #region-content .grid-12 region region-content
+> .region-inner .region-content-inner                       
+
+*************************************************************/
+
+/************************************************************
+                     Front Page
+*************************************************************/
+
+/************************************************************
+                     Product Page
+*************************************************************/
+
+/************************************************************
+                        Catalogue Page
+*************************************************************/
+
+
+/************************************************************
+                     Basket Page
+*************************************************************/
+
+/************************************************************
+        
+                        Footer Zone
+                        
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-footer-wrapper .zone-wrapper .zone-footer-wrapper .clearfix
+> #zone-footer .zone .zone-footer .clearfix .container-12
+> #region-footer-first .grid-6 .region .region-footer-first
+> #region-footer-second .grid-6 .region .region-footer-second
+> .region-inner-first .grid-12 region region-footer
+> .region-inner-second .grid-12 region region-footer
+> .region-inner .region-footer-first-inner      
+> .region-inner .region-footer-second-inner                     
+
+*************************************************************/
+
+/************************************************************
+                        Footer menu
+*************************************************************/
+
+
+/************************************************************
+        
+                    Region page bottom
+                        
+IDs & Classes: 
+> #region-page-bottom .region .region-page-bottom
+> .region-inner .region-page-bottom-inner
+            
+*************************************************************/
+
+
+
+
+/************************************************************
+                        Forms
+*************************************************************/
+
+/************************************************************
+                        Contact us form
+*************************************************************/
+
+/************************************************************
+                        Website sections
+*************************************************************/
+
+/************************************************************
+                        Imported fonts
+*************************************************************/

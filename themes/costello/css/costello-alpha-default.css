@@ -1,0 +1,51 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/************************************************************
+                        HTML elements
+*************************************************************/
+
+/************************************************************
+                            Tabs
+*************************************************************/
+
+/*************************************************************
+        
+                        Branding Zone
+                        
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-branding-wrapper .zone-wrapper .zone-branding-wrapper .clearfix
+> #zone-branding .zone .zone-branding .clearfix .container-12
+> #region-branding .grid-12 region region-branding
+> .region-inner .region-branding-inner          
+
+*************************************************************/
+
+/************************************************************
+        
+                        Menu Zone
+                        
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-menu-wrapper .zone-wrapper .zone-menu-wrapper .clearfix
+> #zone-menu .zone .zone-menu .clearfix .container-12
+> #region-menu .grid-12 region region-menu
+> .region-inner .region-menu-inner                      
+
+*************************************************************/
+
+/************************************************************
+        
+                        Content Zone
+                        
+IDs & Classes: 
+> #section-content .section .section-content
+> #zone-content-wrapper .zone-wrapper .zone-content-wrapper .clearfix
+> #zone-content .zone .zone-content .clearfix .container-12
+> #region-content .grid-12 region region-content
+> .region-inner .region-content-inner                       
+
+*************************************************************/
+
+/************************************************************
+                      Contact us page
+*************************************************************/
