@@ -36,12 +36,17 @@
 /** 
  * Section Styles 
  */
-#header,
+#header {
+	background-color: #000000;
+	color: #FFFFFF;
+	-moz-box-shadow: 1px 1px 4px 3px rgba(102, 102, 102, 0.5);
+	-webkit-box-shadow: 1px 1px 4px 3px rgba(102, 102, 102, 0.5);
+	box-shadow: 1px 1px 4px 3px rgba(102, 102, 102, 0.5);
+}
 #footer {
 	background-color: #000000;
 	color: #FFFFFF;
 }
-
 /**
  * Accessibility features.
  */
@@ -91,7 +96,6 @@
 
 /* Wrapping link for logo. */
 .header__logo {
-  float: left; /* LTR */
   margin: 0;
   padding: 0;
 }
@@ -191,7 +195,9 @@
 .comment__title {      /* Comment title. */
   margin: 0;
 }
-
+.node-type-page h1.page__title {
+	display: none;
+}
 /**
  * Messages.
  */
@@ -768,4 +774,14 @@ tr.selected td {
 .progress .filled {
   background-color: #0072b9;
   background-image: url('../../images/progress.gif');
+}
+/**
+ * Homepage
+ */
+.front h1#page-title {
+	display: none;
+}
+ .view-homepage-block .views-row {
+	background-color: #000000;
+	color: #FFFFFF;
 }
