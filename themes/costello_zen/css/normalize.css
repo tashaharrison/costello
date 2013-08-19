@@ -204,7 +204,7 @@ h1 {
 	font-family: 'Droid Serif', sans-serif;
 	font-size: 2em;
 	font-weight: 400;
-	line-height: 2.125em; /* 3rem / 2em = 1.5em */
+	line-height: 1.5em; /* 3rem / 2em = 1.5em */
   /* Set 1 unit of vertical rhythm on the top and bottom margins. */
 	margin-top: 0.75em; /* 1.5rem / 2em = .75em */
 	margin-bottom: 0.75em;
