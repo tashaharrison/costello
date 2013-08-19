@@ -484,6 +484,7 @@ input[type="submit"] {
 	color: #FFF;
 	padding: 7px 10px;
 	font-size: 1.1em;
+	margin: 1em 0;
 }
 button:hover,
 html input[type="button"]:hover, /* 1 */

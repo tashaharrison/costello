@@ -30,11 +30,16 @@
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1024px;
+	min-height: 1000px;
 }
 #content {
-	margin-top: 20px;
+	margin: 2em 0;
 }
-/* Layout for desktop */
+
+/**
+ * Layout for desktop
+ */
+/*	Header Region */
 .header__logo {
 	float: left;
 }
@@ -44,6 +49,7 @@
 .view-homepage-block {
 	margin-top: 12px;
 }
+/* Webforms */
 .node-type-webform .field-name-body,
 .node-type-webform .webform-client-form {
 	float: left;
@@ -55,12 +61,34 @@
 	padding: 15px 30px 0;
 	width: 400px;
 }
+/* Homepage */
 .view-homepage-block .views-row-1 {
 	margin-right: 20px;
 	width: 464px;
 }
 .node-front-page-slideshow {
 	margin-top: 35px;
+}
+/* Order Forms */
+.node-type-order-form  .group-order-form-details {
+	float: left;
+	width: 450px;
+}
+.node-type-order-form .webform-client-form {
+	float: left;
+	margin-right: 100px;
+	width: 450px;
+}
+.node-type-order-form .webform-client-form .fieldset-wrapper {
+	width: 450px;
+}
+.view-order-form  {
+	text-align: center;
+}
+.view-order-form .views-row {
+	display: inline-block;
+	margin: 0 40px;
+	vertical-align: top;
 }
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 #header,
@@ -132,10 +160,10 @@
  * Tablet Size Screens
  */
 @media all and(max-width: 959px) {
-#content {
+/*#content {
 	margin: 0;
 	padding: 0;
-}
+}*/
 .header__region {
 		padding-top: 0px;
 }
@@ -151,6 +179,17 @@
 .view-homepage-block .views-row-1 {
 	margin-right: 0;
 	width: 100%;
+}
+/* Order Forms */
+.node-type-order-form  .group-order-form-details {
+	width: 400px;
+}
+.node-type-order-form .webform-client-form {
+	margin-right: 50px;
+	width: 400px;
+}
+.node-type-order-form .webform-client-form .fieldset-wrapper {
+	width: 400px;
 }
   /**
    * The layout when there is only one sidebar, the left one.
@@ -267,6 +306,9 @@
  * Mobile Specific
  */
 @media all and (max-width: 480px) {
+	#main {
+		min-height: 100%;
+	}
 	.header__region {
 		padding-top: 0px;
 	}
@@ -279,6 +321,16 @@
 	}
 	.node-front-page-slideshow {
 		margin-top: 10px;
+	}
+	.node-type-order-form  .group-order-form-details {
+	margin-right: 0;
+	width: 100%;
+	}
+	.node-type-order-form .webform-client-form {
+	width: 300px;
+	}
+	.node-type-order-form .webform-client-form .fieldset-wrapper {
+	width: 300px;
 	}
 }
 
