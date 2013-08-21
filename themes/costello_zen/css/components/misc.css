@@ -43,10 +43,10 @@
 	-webkit-box-shadow: 1px 1px 4px 3px rgba(102, 102, 102, 0.5);
 	box-shadow: 1px 1px 4px 3px rgba(102, 102, 102, 0.5);
 }
-#footer {
+/*#footer {
 	background-color: #000000;
 	color: #FFFFFF;
-}
+}*/
 /**
  * Accessibility features.
  */
@@ -784,8 +784,14 @@ tr.selected td {
 .front h1#page-title {
 	display: none;
 }
- .view-homepage-block .views-row {
+.front .view-content{
 	background-color: #000000;
+	padding: 10px 15px;
+}
+.front #content {
+	background-color: #FFFFFF;
+}
+ .view-homepage-block .views-row {
 	color: #FFFFFF;
 }
 /** 

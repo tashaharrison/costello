@@ -79,8 +79,6 @@ audio:not([controls]) {
  * used in any ruleset using a property like this:  font-family: Example, serif;
  */
 
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,400italic,500italic|Droid+Serif:400,400italic);
-
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
