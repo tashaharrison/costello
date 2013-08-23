@@ -59,7 +59,73 @@
 #footer:after {
   clear: both;
 }
-
+/* IE Fixes */
+.lt-ie9 .header__logo {
+	float: left;
+	text-align: left;
+}
+.lt-ie9 .front .view-content {
+	height: 275px;
+}
+.lt-ie9 .front .views-row {
+	display: block;
+	float: left;
+	width: 450px;	
+}
+.lt-ie9 .front .views-row-1 {
+	margin-right: 75px;
+}
+.lt-ie9 #content {
+	margin: 0.4em auto 1.5em;
+	width: 1045px;
+}
+.lt-ie9 .node-type-page .field-name-body,
+.lt-ie9 #block-boxes-order-form-banner	{
+	width: 750px;
+}
+.lt-ie9 .view-order-form .views-row {
+	display: inline-block;
+	vertical-align: top;
+}
+.lt-ie9 .webform-component-fieldset,
+.lt-ie9 .fieldset-wrapper {
+	width: 400px;
+}
+.lt-ie9 .webform-client-form {
+	display: inline-block;
+	width: 450px;
+}
+.lt-ie9 .group_order_form_details {
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+}
+.lt-ie9 .section-contact-us .field-name-body {
+	display: inline-block;
+	width: 300px;
+}
+.lt-ie9	.section-contact-us .webform-client-form {
+	vertical-align: top;
+}
+.lt-ie8 ul.menu li {
+	display: inline;
+}
+.lt-ie8 .view-order-form .views-row {
+	display: inline;
+}
+.lt-ie8 .webform-client-form {
+	display: inline;
+}
+.lt-ie8 .group_order_form_details {
+	display: inline;
+}
+.lt-ie8 .section-contact-us .field-name-body {
+	display: inline;
+}
+/* Fix for Apple tablets frontpage slideshow */
+.field-slideshow  .field-slideshow-slide{
+	margin: 0 auto;
+}
 /* Header */
 .header__logo {
 	display: block;
@@ -72,7 +138,7 @@ ul.menu {
 	margin: 1.5em 0 0;
 }
 .menu  a {
-	padding: 0.8em 1.5em;
+	padding: 0.8em 1em;
 }
 /* Order Form */
 .view-order-form {
