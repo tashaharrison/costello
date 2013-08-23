@@ -14,7 +14,7 @@
 	width: 100%;
 }
 #content {
-	margin: 1em 0;
+	margin: 0.4em 0 1.5em;
 }
 #header,
 #content,
@@ -59,8 +59,127 @@
 #footer:after {
   clear: both;
 }
+
+/* Header */
+.header__logo {
+	display: block;
+	text-align: center;
+}
+/* Menu */
+
+ul.menu {
+	padding: 0;
+	margin: 1.5em 0 0;
+}
+.menu  a {
+	padding: 0.8em 1.5em;
+}
 /* Order Form */
+.view-order-form {
+	text-align: center;
+}
 .webform-component-fieldset,
 .fieldset-wrapper {
 	width: 280px;
+}
+
+/***
+	Narrow Layout
+***/
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
+	/* Menu */
+	ul.menu {
+		display: block;
+		text-align: center;
+	}
+	/* Order Form */
+	.view-order-form .views-row {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.webform-component-fieldset,
+	.fieldset-wrapper {
+		width: 400px;
+	}
+	.webform-client-form {
+		display: inline-block;
+		width: 450px;
+	}
+	.group_order_form_details {
+		display: inline-block;
+		width: 400px;
+		vertical-align: top;
+	}
+	/* Contact Us */
+	.section-contact-us .field-name-body {
+		display: inline-block;
+		width: 300px;
+	}
+	.section-contact-us .webform-client-form {
+		vertical-align: top;
+	}
+
+}
+
+/***
+	Normal Layout
+***/
+@media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape) {
+	
+	/* Header */
+	.header__logo {
+		float: left;
+		text-align: left;
+	}
+	/* Menu */
+	ul.menu {
+		margin: 2.4em 0 0;
+		text-align: left;
+	}
+	.menu  a {
+	padding: 0.8em 0.5em;
+	}
+	/* Frontpage */
+	.front .views-row {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.front .view-homepage-block .views-row-1 {
+		margin-right: 60px;
+		width: 500px;
+	}
+	.front .view-homepage-block .views-row-2 {
+		width: 400px;
+	}
+	/* Order Page */
+	.view-order-form .views-row {
+		margin: 0 1.5em;
+	}
+	.webform-client-form {
+		width: 500px;
+	}
+	/* Contact Us */
+	.section-contact-us .field-name-body {
+		width: 380px;
+	}
+	/* Pages */
+	.node-type-page .field-name-body,
+	#block-boxes-order-form-banner	{
+		width: 750px;
+	}
+}
+
+/***
+	Wide Layout
+***/
+@media all and (min-width: 1220px) {
+	#content {
+		margin: 0.4em auto 1.5em;
+		width: 1024px;
+	}
+	/* Menu */
+	.menu  a {
+	padding: 0.8em 1.5em;
+	}
+
 }
