@@ -131,6 +131,7 @@
 	display: block;
 	text-align: center;
 }
+
 /* Menu */
 
 ul.menu {
@@ -149,6 +150,20 @@ ul.menu {
 	width: 280px;
 }
 
+/* Gallery */
+
+.view-gallery {
+	margin-top: 1.5em;
+	text-align: center;
+}
+.view-gallery .views-field-title h3 {
+	margin-top: 0;
+}
+.view-gallery .views-row {
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-align: center;
+}
 /***
 	Narrow Layout
 ***/
