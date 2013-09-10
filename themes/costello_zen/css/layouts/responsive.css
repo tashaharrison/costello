@@ -131,7 +131,9 @@
 	display: block;
 	text-align: center;
 }
-
+#boxes-box-contact_block {
+	display: none;
+}
 /* Menu */
 
 ul.menu {
@@ -139,7 +141,7 @@ ul.menu {
 	margin: 1.5em 0 0;
 }
 .menu  a {
-	padding: 0.8em 1em;
+	padding: 0.8em 0.6em;
 }
 /* Order Form */
 .view-order-form {
@@ -168,6 +170,13 @@ ul.menu {
 	Narrow Layout
 ***/
 @media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
+	/* Header */
+	#boxes-box-contact_block {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 15px;
+	}
 	/* Menu */
 	ul.menu {
 		display: block;
