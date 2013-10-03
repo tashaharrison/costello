@@ -88,6 +88,8 @@ audio:not([controls]) {
  */
 html {
   font-family: 'Cabin', sans-serif; /* 1 */
+  color: white;
+  background: black;
 
   /* Delete all but one of the following font-size declarations: */
 
@@ -148,18 +150,18 @@ body {
  */
 a:link {
 	text-decoration: underline;
-	color: #000000;
+	color: #FFFFFF;
 }
 a:visited {
 	text-decoration: underline;
-	color: #000000;
+	color: #FFFFFF;
 }
 a:hover,
 a:focus {
-	color: #6F6F6F;
+	color: #FFFFFF;
 }
 a:active {
-	color: #6F6F6F;
+	color: #FFFFFF;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
