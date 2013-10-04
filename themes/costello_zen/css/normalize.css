@@ -479,7 +479,7 @@ input[type="submit"] {
   cursor: pointer; /* 3 */
   *overflow: visible; /* 4 */
   background: #000;
-	border: none;
+	border: 1px solid #FFFFFF;
 	color: #FFF;
 	padding: 7px 10px;
 	font-size: 1.1em;
@@ -556,7 +556,7 @@ textarea {
 /* Drupal-style form labels. */
 label {
   display: block;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /**
@@ -571,4 +571,5 @@ table {
   /* Add vertical rhythm margins. */
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  color: #000;
 }
