@@ -19,5 +19,5 @@ projects[webform_table_element][type] = "module"
 projects[webform_table_element][subdir] = "contrib"
 projects[webform_table_element][download][type] = "git"
 projects[webform_table_element][download][url] = "git://git.drupal.org/project/webform_table_element.git"
-projects[webform_table_element][download][tag] = "7.x-2.x"
+projects[webform_table_element][download][branch] = "7.x-2.x"
 
