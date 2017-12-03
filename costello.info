@@ -29,7 +29,6 @@ dependencies[] = redirect
 dependencies[] = globalredirect
 dependencies[] = metatag
 dependencies[] = nocurrent_pass
-dependencies[] = omega_tools
 dependencies[] = webform
 
 ; Install Features
